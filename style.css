@@ -11,10 +11,6 @@ body {
   line-height: 1.5;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 /* Mon style css pour ma section card produit */
 
 .products-section {
@@ -22,20 +18,12 @@ body {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
 a {
-=======
-a{
->>>>>>> main
   text-decoration: none;
 }
 
 .section-title {
-<<<<<<< HEAD
   font-family: "Playfair Display", serif;
-=======
-  font-family: 'Playfair Display', serif;
->>>>>>> main
   font-weight: 500;
   font-size: 2rem;
   text-align: center;
@@ -43,23 +31,14 @@ a{
   color: #111;
 }
 
-<<<<<<< HEAD
 .products-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 40px 24px;
-=======
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 40px 24px; 
->>>>>>> main
 }
 
 @media (min-width: 600px) {
   .products-grid {
-<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -70,35 +49,14 @@ a{
   }
 }
 
-=======
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-
-@media (min-width: 900px) {
-  .products-grid {
-      grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-
->>>>>>> main
 .product-card {
   display: flex;
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 .image-container {
   width: 100%;
   aspect-ratio: 3 / 4;
-=======
-
-.image-container {
-  width: 100%;
-  aspect-ratio: 3 / 4; 
->>>>>>> main
   background-color: #e2e2e2;
   border-radius: 8px;
   overflow: hidden;
@@ -117,10 +75,6 @@ a{
   transform: scale(1.03);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 .product-info {
   display: flex;
   flex-direction: column;
@@ -147,11 +101,7 @@ a{
 
 .product-link {
   font-size: 0.85rem;
-<<<<<<< HEAD
   color: #c45a2a;
-=======
-  color: #c45a2a; 
->>>>>>> main
   text-decoration: underline;
   text-decoration: none;
   text-underline-offset: 4px;
@@ -164,14 +114,12 @@ a{
 .product-link:hover {
   color: #923f1a;
 }
-<<<<<<< HEAD
-=======
 
 /* AJOUTS - SECTION ACCUEIL */
 
 :root {
-  --accueil-cream: #f4efe8;      /* fond doux pour les cartes "atouts" */
-  --accueil-border: #e4dccd;     /* lignes de séparation discrètes */
+  --accueil-cream: #f4efe8; /* fond doux pour les cartes "atouts" */
+  --accueil-border: #e4dccd; /* lignes de séparation discrètes */
   --accueil-terracotta: #c45a2a; /* même couleur que .product-link, pour rester cohérent avec le reste du site */
   --accueil-terracotta-dark: #923f1a; /* même couleur que .product-link:hover */
 }
@@ -424,4 +372,3 @@ header {
     flex-direction: column;
   }
 }
->>>>>>> main
