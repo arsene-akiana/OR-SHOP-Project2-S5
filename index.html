@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="site-header">
-    <a href="l" class="logo">OR-SHOP</a>
+      <a href="l" class="logo">OR-SHOP</a>
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="#hero">Nouvelle Collection</a></li>
@@ -17,7 +17,7 @@
           <li><a href="#contact.html">Contact</a></li>
         </ul>
       </nav>
-       
+
       <div class="header-actions">
         <!--
           aria-label donne un texte alternatif clair pour les lecteurs d'écran.
@@ -26,10 +26,21 @@
           déjà donnée par aria-label sur le lien parent.
         -->
         <a href="#" class="cart-link" aria-label="Voir le panier (3 articles)">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
             <circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none" />
             <circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none" />
-            <path d="M2.5 3h2l2.3 12.1a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 7H6" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M2.5 3h2l2.3 12.1a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 7H6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
           <span class="cart-count">3</span>
         </a>
@@ -44,7 +55,14 @@
           d'assistance qu'il s'agit d'une zone de recherche du site.
         -->
         <form class="search-form" role="search">
-          <svg class="icon icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <svg
+            class="icon icon-search"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            aria-hidden="true"
+          >
             <circle cx="11" cy="11" r="7" />
             <path d="M20 20l-3.5-3.5" stroke-linecap="round" />
           </svg>
@@ -56,7 +74,9 @@
             cache à l'écran tout en le laissant lisible par un
             lecteur d'écran.
           -->
-          <label for="search-input" class="visually-hidden">Rechercher un produit</label>
+          <label for="search-input" class="visually-hidden"
+            >Rechercher un produit</label
+          >
           <input
             type="search"
             id="search-input"
@@ -78,16 +98,14 @@
         <div class="hero-content">
           <h1>L'artisanat d'exception, pensé pour votre quotidien.</h1>
           <p class="hero-subtitle">
-            Des pièces uniques fabriquées à la main avec des matériaux
-            locaux et durables.
+            Des pièces uniques fabriquées à la main avec des matériaux locaux et
+            durables.
           </p>
           <a href="#" class="btn btn-primary">Découvrir la collection</a>
         </div>
       </section>
 
-
       <section class="atouts">
-
         <h2 class="visually-hidden">Nos engagements</h2>
 
         <article class="atout-card">
@@ -98,22 +116,51 @@
             aria-hidden="true" : l'icône est purement décorative,
             l'information utile est déjà dans le texte à côté.
           -->
-          <svg class="atout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M7 11V6a2 2 0 1 1 4 0v4M11 10V5a2 2 0 1 1 4 0v5M15 11V7a2 2 0 1 1 4 0v7c0 3.9-2.6 7-7.5 7C7.6 21 6 18.5 5 16.5L3.4 13a1.7 1.7 0 0 1 2.8-1.8L7 12" stroke-linecap="round" stroke-linejoin="round" />
+          <svg
+            class="atout-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path
+              d="M7 11V6a2 2 0 1 1 4 0v4M11 10V5a2 2 0 1 1 4 0v5M15 11V7a2 2 0 1 1 4 0v7c0 3.9-2.6 7-7.5 7C7.6 21 6 18.5 5 16.5L3.4 13a1.7 1.7 0 0 1 2.8-1.8L7 12"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
           </svg>
           <p class="atout-label">100% Fait main</p>
         </article>
 
         <article class="atout-card">
-          <svg class="atout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-            <path d="M4 20c8 0 13-3 15-15C10 5 5 9 5 16" stroke-linecap="round" stroke-linejoin="round" />
+          <svg
+            class="atout-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 20c8 0 13-3 15-15C10 5 5 9 5 16"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
             <path d="M5 20c0-4 3-7 7-8" stroke-linecap="round" />
           </svg>
           <p class="atout-label">Éco-conçu</p>
         </article>
 
         <article class="atout-card">
-          <svg class="atout-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <svg
+            class="atout-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
             <rect x="2.5" y="7" width="11" height="9" rx="1" />
             <path d="M13.5 10h4l3 3v3h-7z" />
             <circle cx="7" cy="18.5" r="1.6" />
@@ -122,135 +169,173 @@
           <p class="atout-label">Livraison engagée</p>
         </article>
       </section>
-    
 
       <section id="products-section">
         <h2 class="section-title">Nos créations du moment</h2>
-        
+
         <div class="products-grid">
-            <!-- Carte Produit 1 : Robe Beige -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=60" alt="Robe Aria - Lin Beige">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Robe "Aria"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">5000 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+          <!-- Carte Produit 1 : Robe Beige -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=60"
+                alt="Robe Aria - Lin Beige"
+              />
             </div>
-    
-            <!-- Carte Produit 2 : Robe Terracotta -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=500&auto=format&fit=crop&q=60" alt="Robe Aria - Terracotta">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Robe "Aria"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">7000 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+            <div class="product-info">
+              <h3 class="product-name">Robe "Aria"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">5000 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
             </div>
-    
-            <!-- Carte Produit 3 : Robe Kaki/Verte -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop&q=60" alt="Robe Aria - Vert Kaki">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Robe "Aria"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">5050 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+          </div>
+
+          <!-- Carte Produit 2 : Robe Terracotta -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=500&auto=format&fit=crop&q=60"
+                alt="Robe Aria - Terracotta"
+              />
             </div>
-    
-            <!-- Carte Produit 4 : Sac Toile Beige et Marron -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60" alt="Sac Kaïa en toile">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sac "Kaïa" en toile</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">5500 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+            <div class="product-info">
+              <h3 class="product-name">Robe "Aria"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">7000 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
             </div>
-    
-            <!-- Carte Produit 5 : Sac Toile Kaki -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=500&auto=format&fit=crop&q=60" alt="Sac Kaïa en toile kaki">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sac "Kaïa" en toile</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">7600 FCFA €</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+          </div>
+
+          <!-- Carte Produit 3 : Robe Kaki/Verte -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop&q=60"
+                alt="Robe Aria - Vert Kaki"
+              />
             </div>
-    
-            <!-- Carte Produit 6 : Sac Toile Noir/Sombre -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=60" alt="Sac Kaïa en toile noir">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sac "Kaïa" en toile</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">7000 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+            <div class="product-info">
+              <h3 class="product-name">Robe "Aria"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">5050 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
             </div>
-    
-            <!-- Carte Produit 7 : Sandales Noa Classiques -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60" alt="Sandales Noa">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sandales "Noa"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">6000 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+          </div>
+
+          <!-- Carte Produit 4 : Sac Toile Beige et Marron -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60"
+                alt="Sac Kaïa en toile"
+              />
             </div>
-    
-            <!-- Carte Produit 8 : Sandales Noa Croisées -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&auto=format&fit=crop&q=60" alt="Sandales Noa Variantes">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sandales "Noa"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">5000 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+            <div class="product-info">
+              <h3 class="product-name">Sac "Kaïa" en toile</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">5500 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
             </div>
-    
-            <!-- Carte Produit 9 : Sandales Noa Claires -->
-            <div class="product-card">
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60" alt="Sandales Noa Beige">
-                </div>
-                <div class="product-info">
-                    <h3 class="product-name">Sandales "Noa"</h3>
-                    <p class="product-vendor">Matériel bref</p>
-                    <p class="product-price">2500 FCFA</p>
-                    <a href="#" class="product-link">Voir le produit</a>
-                </div>
+          </div>
+
+          <!-- Carte Produit 5 : Sac Toile Kaki -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1622560480654-d96214fdc887?w=500&auto=format&fit=crop&q=60"
+                alt="Sac Kaïa en toile kaki"
+              />
             </div>
+            <div class="product-info">
+              <h3 class="product-name">Sac "Kaïa" en toile</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">7600 FCFA €</p>
+              <a href="#" class="product-link">Voir le produit</a>
+            </div>
+          </div>
+
+          <!-- Carte Produit 6 : Sac Toile Noir/Sombre -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&auto=format&fit=crop&q=60"
+                alt="Sac Kaïa en toile noir"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sac "Kaïa" en toile</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">7000 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
+            </div>
+          </div>
+
+          <!-- Carte Produit 7 : Sandales Noa Classiques -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60"
+                alt="Sandales Noa"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sandales "Noa"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">6000 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
+            </div>
+          </div>
+
+          <!-- Carte Produit 8 : Sandales Noa Croisées -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&auto=format&fit=crop&q=60"
+                alt="Sandales Noa Variantes"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sandales "Noa"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">5000 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
+            </div>
+          </div>
+
+          <!-- Carte Produit 9 : Sandales Noa Claires -->
+          <div class="product-card">
+            <div class="image-container">
+              <img
+                src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&auto=format&fit=crop&q=60"
+                alt="Sandales Noa Beige"
+              />
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sandales "Noa"</h3>
+              <p class="product-vendor">Matériel bref</p>
+              <p class="product-price">2500 FCFA</p>
+              <a href="#" class="product-link">Voir le produit</a>
+            </div>
+            <!-- Carte Produit 10 : chemise hilton-->
+            <div class="product-card">
+              <div class="image-container">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqZ58RVuyiy-UUoz9DUDuqPOFojeY6LYl55C8rJ5K2ZPMPZEiXY_shUM8m&s=10"
+                  alt="chemise hilton"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">chemise "hilton"</h3>
+                <p class="product-vendor">Matériel bref</p>
+                <p class="product-price">65.000 FCFA</p>
+                <a href="#" class="product-link">Voir le produit</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-      
+      </section>
     </main>
 
-    <footer>
-      
-    </footer>
+    <footer></footer>
   </body>
 </html>
