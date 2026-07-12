@@ -379,3 +379,106 @@ header {
     flex-direction: column;
   }
 }
+
+/*SECTION FOOTER */
+
+.site-footer {
+  background-color: var(--accueil-cream);
+  color: #333;
+  margin-top: 3rem; /* espace de respiration avant le footer */
+  padding: 3rem 2rem 0; /* rien en bas : c'est .footer-bottom qui gère son propre padding */
+}
+
+.footer-grid {
+  max-width: 1200px; /* même largeur max que .products-section, pour l'alignement */
+  margin: 0 auto; /* centre la grille horizontalement */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem; /* espace entre les 3 colonnes */
+  padding-bottom: 2.5rem;
+}
+
+.footer-text {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.75rem;
+  max-width: 28rem;
+}
+
+.footer-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #111;
+  margin-bottom: 0.9rem;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.footer-list a {
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease; /* petite animation douce au survol, cohérente avec .nav-list a:hover */
+}
+
+.footer-list a:hover {
+  color: var(--accueil-terracotta);
+}
+
+
+.footer-address {
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.footer-address a {
+  color: var(--accueil-terracotta);
+  text-decoration: none;
+}
+
+.footer-address a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid var(--accueil-border);
+  text-align: center;
+  padding: 1.25rem 2rem;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/*
+  RESPONSIVE du footer : sur petit écran, 3 colonnes côte à côte
+  deviendraient illisibles (texte trop compressé). On repasse donc en
+  1 seule colonne empilée verticalement, comme on le fait déjà pour
+  .atouts dans les media queries plus haut dans le fichier.
+*/
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr; /* une seule colonne pleine largeur */
+    text-align: center; /* centre le contenu de chaque bloc empilé */
+  }
+
+  .footer-text {
+    margin-left: auto;
+    margin-right: auto; /* centre le paragraphe même s'il a un max-width */
+  }
+
+  .footer-list {
+    align-items: center; /* centre les liens horizontalement dans la colonne unique */
+  }
+}

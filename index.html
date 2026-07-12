@@ -8,12 +8,11 @@
   </head>
   <body>
     <header class="site-header">
-      <a href="l" class="logo">OR-SHOP</a>
+      <a href="#" class="logo">OR-SHOP</a>
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="#hero">Nouvelle Collection</a></li>
           <li><a href="#products-section">Catalogue</a></li>
-          <li><a href="#notre-histoire.html">Notre Histoire</a></li>
           <li><a href="#contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -316,6 +315,7 @@
               <p class="product-price">2500 FCFA</p>
               <a href="#" class="product-link">Voir le produit</a>
             </div>
+          </div>
             <!-- Carte Produit 10 : chemise hilton-->
             <div class="product-card">
               <div class="image-container">
@@ -361,11 +361,61 @@
                 <a href="#" class="product-link">Voir le produit</a>
               </div>
             </div>
-          </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="site-footer">
+      <!--
+        On découpe le footer en 3 blocs qui vont se placer côte à côte
+        grâce à CSS Grid (voir .footer-grid dans le CSS) :
+        1. la marque + une phrase de description
+        2. un menu de liens utiles
+        3. les infos de contact
+        C'est le même principe de "colonnes" que sur la plupart des
+        sites e-commerce (Zalando, Asos, etc.) : ça aide l'utilisateur
+        à retrouver vite l'info qu'il cherche.
+      -->
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="logo">OR-SHOP</p>
+          <p class="footer-text">
+            L'artisanat d'exception, pensé pour votre quotidien. Des
+            pièces uniques fabriquées à la main avec des matériaux
+            locaux et durables.
+          </p>
+        </div>
+
+        <!-- navigation secondaire du footer -->
+        <nav class="footer-nav" aria-label="Liens utiles">
+          <!--
+            aria-label="Liens utiles" permet de distinguer ce <nav>
+            de celui du header (qui a déjà aria-label="Navigation
+            principale"). Sans ça, un lecteur d'écran annoncerait deux
+            fois "navigation" sans que l'utilisateur sache laquelle
+            est laquelle.
+          -->
+          <p class="footer-heading">Navigation</p>
+          <ul class="footer-list">
+            <li><a href="#hero">Nouvelle Collection</a></li>
+            <li><a href="#products-section">Catalogue</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!--  informations de contact -->
+        <div class="footer-contact">
+          <p class="footer-heading">Nous contacter</p>
+          <address class="footer-address">
+            Brazzaville, République du Congo<br />
+            <a href="mailto:contact@or-shop.com">contact@or-shop.com</a>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 OR-SHOP. Tous droits réservés.</p>
+      </div>
+    </footer>
   </body>
 </html>
